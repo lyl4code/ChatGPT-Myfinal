@@ -6,7 +6,7 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "文书批改助手(prompt-based)",
+  title: "文书批改助手pro(prompt-based)",
   description: "精简·GPT4·Gemini",
   viewport: {
     width: "device-width",
