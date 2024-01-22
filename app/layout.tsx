@@ -7,7 +7,7 @@ import { type Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "文书批改助手pro(prompt-based)",
-  description: "精简·GPT4·Gemini",
+  description: "精简·GPT4·Gemini<br><a href='https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb'>点击查看密码</a>",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "NextChat",
     statusBarStyle: "default",
   },
-};
+
 
 export default function RootLayout({
   children,
