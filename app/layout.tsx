@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     title: "文书批改",
     statusBarStyle: "default",
   },
+};
 
 
 export default function RootLayout({
