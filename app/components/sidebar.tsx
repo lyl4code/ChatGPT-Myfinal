@@ -161,7 +161,7 @@ export function SideBar(props: { className?: string }) {
         精简·GPT4·Gemini
         <br />
         因为工具有外泄，故增设密码，
-        <a href="https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb">
+        <a href="https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb" target="_blank">
           点击查看密码
         </a>
       </div>
