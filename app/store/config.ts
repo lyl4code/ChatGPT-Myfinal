@@ -46,7 +46,7 @@ export const DEFAULT_CONFIG = {
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
-    model: "gpt-4" as ModelType,
+    model: "gpt-4-32k" as ModelType,
     temperature: 0.5,
     top_p: 1,
     max_tokens: 32767, // I don't even know how much 2^15 is, I must be a terrible programmer. :(
@@ -54,8 +54,8 @@ export const DEFAULT_CONFIG = {
     frequency_penalty: 0,
     sendMemory: false,
     historyMessageCount: 64,
-    compressMessageLengthThreshold: 1000,
-    enableInjectSystemPrompts: true,
+    compressMessageLengthThreshold: 5000,
+    enableInjectSystemPrompts: false,
     template: DEFAULT_INPUT_TEMPLATE,
   },
 };
