@@ -157,17 +157,14 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           文书批改助手pro
         </div>
-        <div className={styles["sidebar-sub-title"]}>
-          精简·GPT4·Gemini·1.23
-        </div>
-        <div className={styles["sidebar-sub-title"]}>
-          精简·GPT4·Gemini
-        </div>
-        <div className={styles["sidebar-sub-title"]}>
-          <a href="https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb" target="_blank">
-              点击查看密码
-          </a>
-        </div>
+      <div className={styles["sidebar-sub-title"]}>
+        精简·GPT4·Gemini
+        <br />
+        因为工具有外泄，故增设密码，
+        <a href="https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb">
+          点击查看密码
+        </a>
+      </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
