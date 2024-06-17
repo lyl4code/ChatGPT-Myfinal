@@ -160,10 +160,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-sub-title"]}>
         精简·GPT4·Gemini
         <br />
-        因为工具有外泄，故增设密码，
-        <a href="https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb" target="_blank">
-          点击查看密码
-        </a>
+        因为此域名将于7月1号到期，所以很快不能用了，各位可以陆续看看替代品过渡一下
       </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
