@@ -158,9 +158,7 @@ export function SideBar(props: { className?: string }) {
           文书批改助手pro
         </div>
       <div className={styles["sidebar-sub-title"]}>
-        精简·GPT4·Gemini
-        <br />
-        因为此域名将于7月1号到期，所以很快不能用了，各位可以陆续看看替代品过渡一下
+        因为此域名将于7月1号到期，且GPT4的成本消耗比较大，所以很快不能用了，各位老师可以陆续看看替代品过渡一下
       </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
