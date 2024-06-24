@@ -155,10 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          文书批改助手pro
+          文书批改工具
         </div>
       <div className={styles["sidebar-sub-title"]}>
-        因为此域名将于7月1号到期，且GPT4的成本消耗比较大，所以很快不能用了，各位老师可以陆续看看替代品过渡一下
+        为爱奉献版🐶-且用且珍惜哈哈哈哈哈哈哈
       </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
