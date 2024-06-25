@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "文书批改助手pro(prompt-based)",
-  description: "精简·GPT4·Gemini\n[点击查看密码](https://o7m7mpmybq.feishu.cn/wiki/Dkr0wSpQsiAtfPkqLvqcXz7nnsb#part-QOOJdT9Hmo1meFxCQlRciXKcnDb)",
+  title: "ChatGpt(private version)",
+  description: "自用-请勿外传",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "文书批改",
+    title: "ChatGPT",
     statusBarStyle: "default",
   },
 };
