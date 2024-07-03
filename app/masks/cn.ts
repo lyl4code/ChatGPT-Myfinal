@@ -34,7 +34,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 0.8,
       max_tokens: 32000,
       presence_penalty: 0,
@@ -81,7 +81,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 0.8,
       max_tokens: 30000,
       presence_penalty: 0,
@@ -128,7 +128,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 0.9,
       max_tokens: 30000,
       presence_penalty: 0,
@@ -175,7 +175,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 1,
       max_tokens: 30000,
       presence_penalty: 0,
@@ -222,7 +222,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 1,
       max_tokens: 30000,
       presence_penalty: 0,
@@ -269,7 +269,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 0.8,
       max_tokens: 30000,
       presence_penalty: 0,
@@ -316,7 +316,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-4",
+  //     model: "gemini-1.5-pro",
   //     temperature: 0.8,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -363,7 +363,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-4",
+  //     model: "gemini-1.5-pro",
   //     temperature: 0.9,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -410,7 +410,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-4",
+  //     model: "gemini-1.5-pro",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -437,7 +437,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4",
+      model: "gemini-1.5-pro",
       temperature: 1,
       max_tokens: 30000,
       presence_penalty: 0,
@@ -484,7 +484,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-4",
+  //     model: "gemini-1.5-pro",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -771,7 +771,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-4",
+  //     model: "gemini-1.5-pro",
   //     temperature: 0.5,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
