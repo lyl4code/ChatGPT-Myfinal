@@ -14,7 +14,7 @@ export const EN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4-32k",
+      model: "gemini-1.5-pro",
       temperature: 0.3,
       max_tokens: 2000,
       presence_penalty: 0,
