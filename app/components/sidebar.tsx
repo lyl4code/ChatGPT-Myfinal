@@ -158,6 +158,8 @@ export function SideBar(props: { className?: string }) {
           ChatGPT
         </div>
       <div className={styles["sidebar-sub-title"]}>
+        Gpt-4太贵了，换用Gemini模型
+        <br />
         私人自用,成本较高,请勿外传
       </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
