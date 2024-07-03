@@ -118,15 +118,6 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 export const DEFAULT_MODELS = [
   {
-    name: "gemini-1.5-flash",
-    available: true,
-    provider: {
-      id: "google",
-      providerName: "Google",
-      providerType: "google",
-    },
-  },
-  {
     name: "gpt-4",
     available: true,
     provider: {
@@ -154,7 +145,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gemini-pro",
+    name: "gemini-1.5-flash",
     available: true,
     provider: {
       id: "google",
@@ -162,6 +153,15 @@ export const DEFAULT_MODELS = [
       providerType: "google",
     },
   },
+  // {
+  //   name: "gemini-pro",
+  //   available: true,
+  //   provider: {
+  //     id: "google",
+  //     providerName: "Google",
+  //     providerType: "google",
+  //   },
+  // },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
